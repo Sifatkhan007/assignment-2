@@ -1,0 +1,284 @@
+/* Utilities //////// */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ///////////////////////* Navigation-Style///////////////////////////////// */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigates {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.navlist {
+    display: flex;
+    gap: 20px;
+
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist a {
+    text-decoration: none;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.banner-description {
+    font-size: 16px;
+    width: 800px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* /////////////////Quick list Second  Section styles ////////// */
+.quick-list {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.dimentional {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.dimentional img {
+    width: 100%;
+
+}
+
+.quick-details {
+    margin-left: 40px;
+}
+
+.quick-description {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+
+/* /////////////////////////////span tag quick  title design /////////////////////////////// */
+.quick-title {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#first {
+    color: #727272;
+}
+
+#second {
+    color: #131313;
+}
+
+#third {
+    color: #FF900E;
+}
+
+/* ////////////////////////////////////features section style ////////////////////////////// */
+.feat-img img {
+    width: 100%;
+
+}
+
+.feat {
+    height: 100%;
+    width: 100%;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.features-title {
+    border-left: 3px solid #FF900E;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.about-feat {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 585px;
+}
+
+.feat-details {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.feat-item {
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 585px;
+}
+
+.feat-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#btn-text-big {
+    font-size: 65px;
+}
+
+#btn-text-small {
+    font-size: 25px;
+}
+
+.feat-btn button {
+    border: none;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+    left: -240px;
+    top: -100px;
+}
+
+.last-feat {
+    margin-left: 20px;
+}
+
+/* //////////////////////////////Some Fact Section Styles //////////////////////////// */
+.facts {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.facts-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.fact-info {
+    font-size: 16px;
+    width: 550px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.works {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.some-facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-bottom: 60px;
+}
+
+.work-num {
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+.work-name {
+    font-size: 20px;
+}
+
+/*/////////////////// Sponsors Styles/////////////////////// */
+.sponsor-section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.sponsor-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    font-size: 45px;
+}
+
+.sponsor-description {
+    font-size: 16px;
+    width: 542px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+}
+
+.spn-img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+/*//////////////////////// Footer styles ////////////// */
+
+footer {
+    background: #FFF4E7;
+    border: 2px solid #FFF4E7;
+    border-radius: 8px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-width: 50px;
+    text-align: center;
+
+}
