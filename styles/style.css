@@ -276,7 +276,6 @@ footer {
     background: #FFF4E7;
     border: 2px solid #FFF4E7;
     border-radius: 8px;
-    width: 75%;
     margin: 0 auto;
     margin-bottom: 100px;
     border-width: 50px;
@@ -290,7 +289,6 @@ footer {
 
     .navigates {
         width: 75%;
-        margin: 0 auto;
     }
 
     nav {
@@ -313,15 +311,74 @@ footer {
         align-items: flex-start;
     }
 
+    .banner-description {
+        width: auto;
+    }
+
     .banner-img img {
         width: 100%;
         height: 100%;
     }
 
-    .banner-description {
+    .quick-list {
+        flex-direction: column;
+        margin-top: 20px;
         width: 75%;
     }
 
+    .features {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .about-feat {
+        width: 50%;
+    }
+
+    .feat-btn {
+        display: none;
+    }
+
+    .facts {
+        width: 75%;
+        margin-top: 50px;
+    }
+
+    .fact-info {
+        width: auto;
+    }
+
+    .some-facts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .sponsors-section {
+        width: 75%;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .sponsor-description {
+        width: auto;
+    }
+
+    footer {
+        background: #FFF4E7;
+        border: 2px solid #FFF4E7;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 
 
 
